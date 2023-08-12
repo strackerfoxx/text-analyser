@@ -330,6 +330,7 @@ section a{
 
 #section-2 h2{
   font-size: 2rem;
+  margin-left: -2rem;
 }
 #section-2 p{
   font-size: 1rem;
