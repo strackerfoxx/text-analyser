@@ -45,19 +45,19 @@ export default function App() {
         <section id="section-3">
           <div id="card-container">
             <div className="card">
-            <button className="icon" onClick={() => handleChange("feels")}>😀</button>
+            <button className="icon">😀</button>
               <p>analyze feels</p>
-              <button className="btn">Analyze Text</button> 
+              <button className="btn" onClick={() => handleChange("feels")}>Analyze Text</button> 
             </div>
             <div className="card">
-              <button className="icon" onClick={() => handleChange("summarizes")}>📄</button>
+              <button className="icon">📄</button>
               <p>summarizes text</p>
-              <button className="btn">Analyze Text</button>
+              <button className="btn" onClick={() => handleChange("summarizes")}>Analyze Text</button>
             </div>
             <div className="card">
-              <button className="icon" onClick={() => handleChange("scan")}>🖨️</button>
+              <button className="icon">🖨️</button>
               <p>scan text</p>
-              <button className="btn">Analyze Text</button>
+              <button className="btn" onClick={() => handleChange("scan")}>Analyze Text</button>
             </div>
           </div>
         </section>
