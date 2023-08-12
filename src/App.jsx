@@ -11,7 +11,7 @@ export default function App() {
   return (
     <>
       <aside>
-        <a href="http://127.0.0.1:5173/"><img src="../logo-T-cube.png" alt="logo" /></a>
+        <a href="http://127.0.0.1:5173/"><img src="https://cdn.leonardo.ai/users/b409b65d-045e-428d-9c53-1157e2d9ebe1/generations/625ca4c1-5871-47dc-9d25-3b3fc35890c0/variations/Default_logo_moderno_tech_code_letter_T_high_quality_8k_high_r_3_625ca4c1-5871-47dc-9d25-3b3fc35890c0_0.png" alt="logo" /></a>
         <button className="icon" onClick={() => handleChange("feels")} >😀 <span> analyze feels</span></button>
         <button className="icon" onClick={() => handleChange("summarizes")} >📄 <span>summarizes text</span></button>
         <button className="icon" onClick={() => handleChange("scan")} >🖨️ <span>scan text</span></button>
@@ -36,7 +36,7 @@ export default function App() {
         </section>
 
         <section id="section-2">
-          <img src="../logo-T-cube.png" alt="logo" />
+          <img src="https://cdn.leonardo.ai/users/b409b65d-045e-428d-9c53-1157e2d9ebe1/generations/625ca4c1-5871-47dc-9d25-3b3fc35890c0/variations/Default_logo_moderno_tech_code_letter_T_high_quality_8k_high_r_3_625ca4c1-5871-47dc-9d25-3b3fc35890c0_0.png" alt="logo" />
           <h2>Introducing Text Analyser</h2>
           <p> Power your text analysis with our advanced online tool. Detect emotions, summarize long texts instantly. Simplify understanding of content and comments.</p>
           <p>You can also scan and extract text from files for quick analysis. Experience the efficiency of text analysis with our innovative platform today!</p>
